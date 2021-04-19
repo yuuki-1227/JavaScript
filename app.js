@@ -38,3 +38,18 @@ for(i = 1; i < 11; i++){
 }
 
 alert('1から10まで足し算した結果は' + num + 'です');
+
+
+var alertString;
+alertString = addString("WebCamp");
+
+alert(alertString);
+
+function addString(strA){
+  var addStr = "Hello " + strA;
+  return addStr;
+}
+
+var promptStr = prompt('何か好きな文字を入力してください。')
+
+alert(promptStr);
